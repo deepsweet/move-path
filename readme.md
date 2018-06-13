@@ -20,7 +20,7 @@ $ yarn add move-path
 ### Signature
 
 ```ts
-movePath(from: string, to: string): string
+(from: string, to: string) => string
 ```
 
 Handles both relative and absolute `from` and `to` and returns an absolute destination path.
