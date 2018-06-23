@@ -17,15 +17,11 @@ $ yarn add move-path
 
 ## Usage
 
-### Signature
-
-```ts
-(from: string, to: string) => string
+```js
+movePath(from, to)
 ```
 
 Handles both relative and absolute `from` and `to` and returns an absolute destination path.
-
-### Example
 
 ```js
 import movePath from 'move-path'
