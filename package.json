@@ -1,6 +1,6 @@
 {
   "name": "move-path",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Move path to destination folder",
   "keywords": "fs, path, move, destination",
   "homepage": "https://github.com/deepsweet/move-path",
@@ -15,6 +15,9 @@
   "engines": {
     "node": ">=8.6.0"
   },
+  "dependencies": {
+    "@babel/runtime": "^7.4.2"
+  },
   "devDependencies": {
     "@deepsweet/eslint-config-node-ts": "^0.2.1",
     "@deepsweet/start-preset-node-ts-lib": "^0.7.2",
@@ -25,8 +28,5 @@
   },
   "eslintConfig": {
     "extends": "@deepsweet/eslint-config-node-ts"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.4.2"
   }
 }
