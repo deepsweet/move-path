@@ -1,6 +1,6 @@
 import { join, resolve } from 'path'
 import { homedir } from 'os'
-import test from 'tape'
+import test from 'blue-tape'
 
 import movePath from '../src'
 
