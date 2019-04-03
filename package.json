@@ -1,6 +1,6 @@
 {
   "name": "move-path",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Move path to destination folder",
   "keywords": "fs, path, move, destination",
   "homepage": "https://github.com/deepsweet/move-path",
