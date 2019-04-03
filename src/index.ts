@@ -21,11 +21,12 @@ const movePath = (from: string, to: string): string => {
     )
   }
 
-  // skip first segment
-  return path.resolve(
-    toRelative,
-    ...inSplit.slice(index + 1)
-  )
+  if (inSplit.length === index + 1) {
+    return path.resolve(toRelative, ...inSplit.slice(index))
+  }
+
+  // skip same segments
+  return path.resolve(toRelative, ...inSplit.slice(index + 1))
 }
 
 export default movePath

@@ -6,8 +6,8 @@ import movePath from '../src'
 
 test('intersected paths', (t) => {
   t.equal(
-    movePath('src/foo/bar/index.js', 'build/baz/'),
-    resolve('build/baz/foo/bar/index.js'),
+    movePath('foo/index.js', 'foo/build/'),
+    resolve('foo/build/index.js'),
     'should move relative file path to relative destination'
   )
 
